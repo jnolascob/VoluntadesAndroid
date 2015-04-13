@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="5dp"
+        android:text="@string/take_assistance" />
+
+    <TextView
+        android:id="@+id/txt_today"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="@string/today" />
+
+    <ListView
+        android:id="@+id/list_volunteer"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp"></ListView>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/selector_btn_blue"
+        android:text="@string/save" />
+    <Button
+        android:id="@+id/btn_update"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:layout_weight="0.8"
+        android:background="@drawable/selector_btn_blue"
+        android:text="@string/update" />
+
+</LinearLayout>

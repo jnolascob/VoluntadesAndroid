@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">voluntades RRHH</string>
+    <string name="title_section1">Asistencia</string>
+    <string name="title_section2">Historial</string>
+    <string name="title_section3">Voluntarios</string>
+    <string name="title_section4">Reportes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Splash -->
+    <string name="loading">Cargando ...</string>
+    <string name="login_facebook">Login con Facebook</string>
+
+    <!-- Assitance -->
+    <string name="take_assistance">Asistencia de hoy</string>
+    <string name="today">15/15/2015</string>
+    <string name="save">Guardar</string>
+    <string name="update">Actualizar</string>
+    <!-- Item Assitance -->
+    <string name="name_default">Nombre del voluntario</string>
+    <string name="state_default">Estado del voluntario</string>
+    <!-- Item Take Assitance -->
+    <string name="value_assistance">Llegó temprano</string>
+
+    <!-- History -->
+    <string name="title_history">Historial de Asistencias</string>
+
+    <!-- Lastest -->
+    <string name="title_lastest">Agregar Voluntario</string>
+    <string name="name_lastest">nombre</string>
+    <string name="lastname_lastest">apellido</string>
+    <string name="gender_lastest">sexo</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="save_volunteer">Guardando ...</string>
+
+
+    <!-- Volunteers -->
+    <string name="project_name">Activa Ciudad</string>
+    <string name="add_volunteer">Nuevo Voluntario</string>
+    <!-- Reports -->
+    <string name="coming_soon">Coming Soon!</string>
+
+    <!-- facebook app id -->
+    <string name="facebook_app_id">1483698511883555</string>
+
+</resources>

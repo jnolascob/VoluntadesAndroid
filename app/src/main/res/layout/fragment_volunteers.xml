@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/project_name"
+        android:gravity="center"
+
+        android:layout_gravity="center_horizontal|top" />
+
+    <ListView
+        android:id="@+id/list_all_volunteers"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:layout_gravity="center"></ListView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/add_volunteer"
+        android:background="@drawable/selector_btn_blue"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal|bottom" />
+</FrameLayout>
